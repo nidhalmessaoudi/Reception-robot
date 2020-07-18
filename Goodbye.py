@@ -3,10 +3,9 @@
 
 print("I hope the stay was good!")
 
-give_key = input("Can you give me the key please!")
-if give_key == "of course" or "yes" or "yeah" :
+goodbye = input("Can you give me the key please?")
+if goodbye == "yes" :
     print("Thank you, see you next time!")
 else :
-    print("You have to give me the key please!") # Hahahahaha you can change like you would!    
-
+    print("you have to give me the key before leaving.It's necessary!")    
 
